@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico">
+    <title>Star Bazaar</title>
+    <style>
+        img{height: 500px;}
+        .div{text-align: center;
+        }
+        .wor{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+        #cars{size: 30px;
+        font-size: 23px;
+      margin-bottom: 2%;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+      .div{background-color: antiquewhite;}
+      .id{text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+        .roy{text-align: center;
+        margin-top: 2%;
+        margin-bottom: 10%;}
+        .footer{
+           position: fixed;
+           left: 0;
+            bottom: 0;
+           width: 100%;
+           background-color: red;
+           color: white;
+          text-align: center;
+          margin-top: 5%;}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="pro.html">Star Bazaar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Account</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contacts
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Email</a></li>
+                  <li><a class="dropdown-item" href="#">Number</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+              
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="photo-1483378096604-1294ca36d0f3.jpeg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="photo-1587046729199-3c96d71037f4.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="photo-1596446390988-1b2b1a004ea9.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<div class="div">   
+<h1 class="wor">Select Your Nearest Shop</h1>
+<select name="cars" id="cars">
+  <option value="volvo">Mahalaxmi Grocery Store</option>
+  <option value="saab">Sopu store</option>
+  <option value="mercedes">Dey & Dey Grocery Store</option>
+  <option value="audi"> Laxmi Store</option>
+  <option value="audi">4D Pocket Store</option>
+</select>
+</div>
+<hr>
+<section class="id">
+  <div>
+    <h3>Sugar</h3>
+    <p>kg/grams</p>
+    <label for=""></label>
+    <input type="number">
+  </div>
+<hr>
+  <div>
+    <h3>Cooking oil</h3>
+    <p>kg/grams</p>
+    <label for="KG"></label>
+    <input type="number">
+  </div>
+  <hr>
+  <div>
+    <h3>Maida</h3>
+    <p>kg/grams</p>
+    <label for="KG"></label>
+    <input type="number">
+  </div>
+  <hr>
+  <div>
+    <h3>Green Gram Dal</h3>
+    <p>kg/grams</p>
+    <label for="KG"></label>
+    <input type="number">
+  </div>
+  <hr>
+  <div>
+    <h3>Jaggery</h3>
+    <p>kg/grams</p>
+    <label for="KG"></label>
+    <input type="number">
+  </div>
+  <hr>
+  <div>
+    <h3>Milk Powder</h3>
+    <p>Packages</p>
+    <label for="KG"></label>
+    <input type="number">
+  </div>
+  <hr>
+  <div>
+    <h3>Red Chillies powder</h3>
+    <p>Packages</p>
+    <label for="KG"></label>
+    <input type="number">
+  </div>
+  <hr>
+  <div>
+    <h3>salt</h3>
+    <p>Packages</p>
+    <label for="KG"></label>
+    <input type="number">
+  </div>
+  <hr>
+  <div>
+    <h3>long grain basmati rice</h3>
+    <p>kg/grams</p>
+    <label for="KG"></label>
+    <input type="number">
+  </div>
+  <hr>
+  <div>
+    <h3>ground black pepper</h3>
+    <p>kg/grams</p>
+   <label for="kg/grams"></label>
+   <input type="number">
+  </div>
+</section>
+<hr>
+<div class="roy">
+  <a href="payment.html" class="btn btn-primary" role="button">Buy</a>
+</div>
+<hr>
+<footer class="footer">
+  <p>@Star Bazzar 2020</p>
+</footer>
+</body>
+</html>
